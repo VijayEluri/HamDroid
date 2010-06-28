@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HamDroid!</string>
+    <string name="app_name">HamDroid</string>
+    <string name="hamdroid_activity_details_name">HamDroid > Activity Details</string>
+    <string name="hamdroid_category_details_name">HamDroid > Category Details</string>
+    
+    
+    <string name="what_you_doing">What are you doing?</string>
+    <string name="text_category_hint">Category</string>
+    
+    <string name="today_header">Today</string>
+    <string name="activity_start_time_header">Start Time</string>
+    <string name="activity_category_header">Category >></string>
+    <string name="activity_end_time_header">End Time</string>
+    <string name="activity_name_header">Activity</string>
+    
+    <string name="activity_over_toast">Activity is already over</string>
+    <string name="activity_running">Activity is still running</string>
+    <string name="stop_tracking">Stop tracking</string>
+</resources>

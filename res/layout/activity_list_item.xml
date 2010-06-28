@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:paddingBottom="10dip"
+	android:hapticFeedbackEnabled="true"
+	android:background="@drawable/itemframe"
+	>
+	<TextView
+		android:id="@+id/activity_list_item_name"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="20dip"
+		android:paddingRight="10dip"
+		android:textColorHighlight="#00FF00"
+		android:singleLine="true"
+		android:layout_weight="1"
+	/>
+	<TextView
+		android:id="@+id/activity_list_item_duration"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="18dip"
+		android:textColorHighlight="#00FF00"
+		android:paddingRight="5dip"
+	/>
+</TableRow>

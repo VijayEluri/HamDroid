@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	>
+	<LinearLayout 
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+		<TextView
+			android:id="@+id/category_details_header"
+			style="@style/DetailsHeader"
+ 			/>
+ 		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/headerline"
+			/>
+ 		<ScrollView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:focusable="true"
+			android:clickable="true"		
+		>
+			<TableLayout
+    			android:id="@+id/activity_list"
+    			android:orientation="vertical"
+    			android:layout_width="fill_parent"
+    			android:layout_height="wrap_content"
+    			android:focusableInTouchMode="true"
+				android:clickable="true"
+    			/>
+    	</ScrollView>	
+	</LinearLayout>
+</ScrollView>
